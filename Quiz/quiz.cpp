@@ -17,7 +17,7 @@ class product{
         }
 
         void getName(){
-            std::cout ("")
+            std::cout << "Name: " << name << std::endl;
         }
 
         void setPrice(int price) {
@@ -25,11 +25,15 @@ class product{
         }
 
         void getPrice(){
-            std::cout ()
+            std::cout << "Price: " << price << std::endl;
         }
 
         void setQuantity (int quantity){
             this-> quantity =  quantity;
+        }
+
+        void getQuantity() {
+            std::cout << "Quantity: " << quantity << std::endl;
         }
 
 class Soap : public Product{
@@ -44,7 +48,8 @@ class Soap : public Product{
         int total = price * quantity;
         std::cout << "Total: " << total << std::endl;
     }
-
+        int total
+        
         int main() {
             Soap soap;
             soap.setName("Bath soap");
