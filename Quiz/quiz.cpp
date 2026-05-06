@@ -35,10 +35,25 @@ class product{
 class Soap : public Product{
 
     public:
-        void showProduct(){
-            std::cout <<"Jabon" << std::endl;
+        void showProduct() {
+        std::cout << "Product: Soap" << std::endl;
+        getName();
+        getPrice();
+        getQuantity();
+
+        int total = price * quantity;
+        std::cout << "Total: " << total << std::endl;
+    }
+
+        int main() {
+            Soap soap;
+            soap.setName("Bath soap");
+            soap.setPrice(5);
+            soap.setQuantity(3);
+
+            soap.showProduct();
 
 
-        int total 
+    return 0;
 }
 
