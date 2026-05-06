@@ -32,5 +32,13 @@ class product{
             this-> quantity =  quantity;
         }
 
+class Soap : public Product{
 
+    public:
+        void showProduct(){
+            std::cout <<"Jabon" << std::endl;
+
+
+        int total 
 }
+
