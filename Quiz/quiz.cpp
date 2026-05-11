@@ -49,7 +49,7 @@ class Soap : public Product{
         std::cout << "Total: " << total << std::endl;
     }
         int total
-        
+
         int main() {
             Soap soap;
             soap.setName("Bath soap");
@@ -61,4 +61,3 @@ class Soap : public Product{
 
     return 0;
 }
-
