@@ -7,7 +7,7 @@ class Profesor : public Persona {
 private:
     string especialidad;
     float salario;
-}
+
 public:
     Profesor(
         string nombre,
@@ -22,3 +22,5 @@ public:
 
     void mostrarInformacion() override;
 };
+
+#endif
