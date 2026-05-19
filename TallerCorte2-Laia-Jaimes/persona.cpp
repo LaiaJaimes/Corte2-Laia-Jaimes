@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cstdio>
+#include "persona.h"
 
 Persona::Persona(string nombre, string apellido, int edad, string documento) {
     this->nombre = nombre;
