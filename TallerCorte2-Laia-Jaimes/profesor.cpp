@@ -16,3 +16,15 @@ Profesor::Profesor(
     this->especialidad = especialidad;
     this->salario = salario;
 }
+
+void Profesor::asignarCurso() {
+    cout << "Curso asignado." << endl;
+}
+
+void Profesor::mostrarInformacion() {
+    cout << "\n PROFESOR " << endl;
+    cout << "Nombre: " << nombre << endl;
+    cout << "Apellido: " << apellido << endl;
+    cout << "Especialidad: " << especialidad << endl;
+    cout << "Salario: " << salario << endl;
+}
