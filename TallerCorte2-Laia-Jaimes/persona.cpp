@@ -1,0 +1,10 @@
+#include <iostream>
+#include <string>
+#include <cstdio>
+
+Persona::Persona(string nombre, string apellido, int edad, string documento) {
+    this->nombre = nombre;
+    this->apellido = apellido;
+    this->edad = edad;
+    this->documento = documento;
+}
