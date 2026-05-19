@@ -26,3 +26,14 @@ public:
 
     
     void mostrarCurso();
+    string getNombreCurso();
+    string getCodigoCurso();
+    int getCreditos();
+
+
+    void setNombreCurso(string nombreCurso);
+    void setCodigoCurso(string codigoCurso);
+    void setCreditos(int creditos);
+};
+
+#endif
