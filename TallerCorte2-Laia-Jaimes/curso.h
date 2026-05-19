@@ -14,3 +14,15 @@ private:
     string nombreCurso;
     string codigoCurso;
     int creditos;
+
+public:
+
+    
+    Curso(
+        string nombreCurso,
+        string codigoCurso,
+        int creditos
+    );
+
+    
+    void mostrarCurso();
