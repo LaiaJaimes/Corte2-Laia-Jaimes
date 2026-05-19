@@ -8,3 +8,17 @@ private:
     string especialidad;
     float salario;
 }
+public:
+    Profesor(
+        string nombre,
+        string apellido,
+        int edad,
+        string documento,
+        string especialidad,
+        float salario
+    );
+
+    void asignarCurso();
+
+    void mostrarInformacion() override;
+};
