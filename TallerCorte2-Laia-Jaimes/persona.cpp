@@ -8,3 +8,9 @@ Persona::Persona(string nombre, string apellido, int edad, string documento) {
     this->edad = edad;
     this->documento = documento;
 }
+string Persona::getNombre() {
+    return nombre;
+}
+
+void Persona::setNombre(string nombre) {
+    this->nombre = nombre;
