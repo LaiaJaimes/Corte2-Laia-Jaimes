@@ -4,11 +4,14 @@
 #include "Persona.h"
 
 class Profesor : public Persona {
+
 private:
     string especialidad;
     float salario;
 
 public:
+
+    // Constructor
     Profesor(
         string nombre,
         string apellido,
@@ -17,10 +20,17 @@ public:
         string especialidad,
         float salario
     );
-
-    void asignarCurso();
+ void asignarCurso();
 
     void mostrarInformacion() override;
+
+    // GETTERS
+    string getEspecialidad();
+    float getSalario();
+
+    // SETTERS
+    void setEspecialidad(string especialidad);
+    void setSalario(float salario);
 };
 
 #endif
