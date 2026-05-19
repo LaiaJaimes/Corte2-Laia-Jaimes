@@ -25,9 +25,9 @@
     string getNombre();
     void setNombre(string nombre);
 
-    virtual ~Persona();
+    virtual Persona();
 
-        virtual ~Persona();
+        virtual Persona();
 };
 
 #endif
