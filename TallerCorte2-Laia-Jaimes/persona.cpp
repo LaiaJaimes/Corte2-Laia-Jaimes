@@ -14,3 +14,6 @@ string Persona::getNombre() {
 
 void Persona::setNombre(string nombre) {
     this->nombre = nombre;
+
+Persona::Persona() {
+}
