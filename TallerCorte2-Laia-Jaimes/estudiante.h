@@ -8,4 +8,14 @@ private:
     string codigo;
     int semestre;
     float promedio;
-    
+
+    public:
+    Estudiante(
+        string nombre,
+        string apellido,
+        int edad,
+        string documento,
+        string codigo,
+        int semestre,
+        float promedio
+    );
