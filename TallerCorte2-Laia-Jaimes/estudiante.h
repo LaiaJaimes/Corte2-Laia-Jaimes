@@ -19,3 +19,10 @@ private:
         int semestre,
         float promedio
     );
+
+    void inscribirCurso();
+
+    void mostrarInformacion() override;
+};
+
+#endif
