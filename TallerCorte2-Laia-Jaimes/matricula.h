@@ -24,3 +24,10 @@ public:
 
     string getEstadoMatricula;
     float getNotaFinal;
+
+    void setEstadoMatricula(string estadoMatricula);
+    void setNotaFinal(float notaFinal);
+
+};
+
+#endif 
