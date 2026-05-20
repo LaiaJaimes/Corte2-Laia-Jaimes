@@ -23,3 +23,12 @@ public:
     int getCodigoUsuario();
 
     int getCantidadLibrosPrestados();
+
+    void setCodigoUsuario(int codigoUsuario);
+
+    void setCantidadLibrosPrestados(
+        int cantidadLibrosPrestados
+    );
+};
+
+#endif
