@@ -25,3 +25,12 @@ private:
      int getCodigoEmpleado();
 
     float getSalario();
+
+     void setCodigoEmpleado(
+        int codigoEmpleado
+    );
+
+    void setSalario(float salario);
+};
+
+#endif
