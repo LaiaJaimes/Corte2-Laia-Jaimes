@@ -17,3 +17,7 @@ private:
         int codigoEmpleado,
         float salario
     );
+
+     void mostrarRol() override;
+
+    void mostrarInformacion() override;
