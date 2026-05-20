@@ -16,3 +16,10 @@ public:
         int codigoUsuario,
         int cantidadLibrosPrestados
     );
+     void mostrarRol() override;
+
+    void mostrarInformacion() override;
+
+    int getCodigoUsuario();
+
+    int getCantidadLibrosPrestados();
