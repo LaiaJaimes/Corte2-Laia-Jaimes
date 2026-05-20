@@ -2,7 +2,7 @@
 
 Objetivo del sistema: 
 
-Diseñar e implementar un sistema orientado a objetos en C++ que permita gestionar información académica universitaria aplicando:
+Diseñar e implementar un sistema orientado a objetos en C++ que permita gestionar una biblioteca:
 
 - Buenas prácticas de programación.
 - UML.
