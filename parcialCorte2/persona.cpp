@@ -10,8 +10,6 @@ Persona::Persona(
     this->documento = documento;
 }
 
-// GETTERS
-
 std::string Persona::getNombre() {
     return nombre;
 }
@@ -19,3 +17,15 @@ std::string Persona::getNombre() {
 std::string Persona::getDocumento() {
     return documento;
 }
+
+void Persona::setNombre(std::string nombre) {
+    this->nombre = nombre;
+}
+
+void Persona::setDocumento(std::string documento) {
+    this->documento = documento;
+}
+
+Persona::~Persona() {
+}
+
