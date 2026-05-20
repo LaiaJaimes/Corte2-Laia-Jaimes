@@ -25,3 +25,13 @@ public:
 
     std::string getDocumento();
 
+    void setNombre(std::string nombre);
+
+    void setDocumento(std::string documento);
+
+    virtual Persona();
+};
+
+#endif
+
+
