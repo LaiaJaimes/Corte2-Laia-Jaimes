@@ -57,3 +57,12 @@ void Libros::prestarLibro() {
         << "Libro prestado correctamente."
         << std::endl;
     }
+
+     else {
+
+        std::cout
+        << "El libro no esta disponible."
+        << std::endl;
+    }
+}
+
