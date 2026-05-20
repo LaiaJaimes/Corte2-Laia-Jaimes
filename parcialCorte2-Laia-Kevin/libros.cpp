@@ -47,3 +47,13 @@ void Libros::mostrarInformacion() {
                   << std::endl;
     }
 }
+void Libros::prestarLibro() {
+
+    if(disponible) {
+
+        disponible = false;
+
+        std::cout
+        << "Libro prestado correctamente."
+        << std::endl;
+    }
