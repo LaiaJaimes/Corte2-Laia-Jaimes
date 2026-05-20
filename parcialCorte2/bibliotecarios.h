@@ -21,3 +21,7 @@ private:
      void mostrarRol() override;
 
     void mostrarInformacion() override;
+
+     int getCodigoEmpleado();
+
+    float getSalario();
