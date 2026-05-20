@@ -9,3 +9,8 @@ Usuarios::Usuarios(
 )
 : Persona(nombre, documento)
 {
+this->codigoUsuario = codigoUsuario;
+
+    this->cantidadLibrosPrestados =
+    cantidadLibrosPrestados;
+}
