@@ -19,3 +19,5 @@ void Usuarios::mostrarRol() {
 
     std::cout << "Rol: Usuario"
               << std::endl;
+
+              
