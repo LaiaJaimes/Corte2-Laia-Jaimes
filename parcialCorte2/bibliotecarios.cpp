@@ -8,3 +8,14 @@ class Bibliotecarios : public Persona {
 private:
     int codigoEmpleado;
     float salario;
+
+public:
+
+    Bibliotecarios(
+        std::string nombre,
+        std::string documento,
+        int codigoEmpleado,
+        float salario
+    );
+
+    
