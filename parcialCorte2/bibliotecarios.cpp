@@ -18,4 +18,6 @@ public:
         float salario
     );
 
-    
+void mostrarSalario
+
+void 
