@@ -14,3 +14,8 @@ this->codigoUsuario = codigoUsuario;
     this->cantidadLibrosPrestados =
     cantidadLibrosPrestados;
 }
+
+void Usuarios::mostrarRol() {
+
+    std::cout << "Rol: Usuario"
+              << std::endl;
