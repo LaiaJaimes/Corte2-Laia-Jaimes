@@ -25,3 +25,25 @@ void Libros::mostrarInformacion() {
     std::cout << "Titulo: "
               << titulo
               << std::endl;
+
+                std::cout << "Autor: "
+              << autor
+              << std::endl;
+
+    std::cout << "Codigo libro: "
+              << codigoLibro
+              << std::endl;
+
+    std::cout << "Disponible: ";
+
+    if(disponible) {
+
+        std::cout << "Si"
+                  << std::endl;
+    }
+  else {
+
+        std::cout << "No"
+                  << std::endl;
+    }
+}
