@@ -4,4 +4,15 @@
 #include "persona.h"
 
 class Usuarios : public Persona {
-    
+    private:
+    int codigoUsuario;
+    int cantidadLibrosPrestados;
+
+public:
+
+    Usuarios(
+        std::string nombre,
+        std::string documento,
+        int codigoUsuario,
+        int cantidadLibrosPrestados
+    );
