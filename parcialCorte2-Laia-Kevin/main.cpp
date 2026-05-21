@@ -33,3 +33,17 @@ int main() {
     bibliotecario1.mostrarRol();
 
     bibliotecario1.mostrarInformacion();
+
+
+    libro1.mostrarInformacion();
+
+    libro1.prestarLibro();
+
+    libro1.mostrarInformacion();
+
+    libro1.devolverLibro();
+
+    libro1.mostrarInformacion();
+
+    return 0;
+}
