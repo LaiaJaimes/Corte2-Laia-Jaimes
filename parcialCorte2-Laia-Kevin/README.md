@@ -11,3 +11,5 @@ Diseñar e implementar un sistema orientado a objetos en C++ que permita gestion
 - Polimorfismo.
 - Modularidad (.h y .cpp).
 - Organización profesional de proyectos.
+
+# Integrantes: Laia Jaimes Gómez y Kevin Orlando Castañeda Albarracín 
